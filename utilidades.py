@@ -12,8 +12,11 @@ def dividir(a, b):
         return "Error: división por cero"
     return a / b
 
-def operacion_innecesaria(x):
+# Para arreglarlo podemos o eliminar la operacion o simplemente cambiarla para que no devuelva siempre el mismo valor 
+def operacion(x):
     if x > 0:
         return True
     else:
-        return True
+        return False #algo asi ahora tendria cierta utilidad.
+
+
